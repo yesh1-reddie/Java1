@@ -37,4 +37,19 @@ public class EmployeeServiceImpl implements EmployeeService {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	public void displayAllEmployees() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void displayByScheme(String scheme) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deleteEmployee(int id) {
+		// TODO Auto-generated method stub
+		
+	}
 }
