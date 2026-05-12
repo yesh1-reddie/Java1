@@ -11,7 +11,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     public void findInsuranceScheme(Employee emp) {
         double salary = emp.getSalary();
         String designation = emp.getDesignation();
-
+        
         if (salary > 50000 && designation.equalsIgnoreCase("Manager")) {
             emp.setInsuranceScheme("Premium");
         } else if (salary > 30000 && designation.equalsIgnoreCase("Programmer")) {
@@ -27,4 +27,14 @@ public class EmployeeServiceImpl implements EmployeeService {
     public void displayEmployee(Employee emp) {
         System.out.println(emp);
     }
+
+	public void writeEmployeeToFile(Employee emp, String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Employee readEmployeeFromFile(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
